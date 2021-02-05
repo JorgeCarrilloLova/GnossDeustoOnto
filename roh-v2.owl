@@ -6150,6 +6150,7 @@ Besides, an instance of a foaf:Organization is associated to the following entit
 
     <owl:Class rdf:about="http://purl.org/roh/mirror/foaf#Person">
         <rdfs:subClassOf rdf:resource="http://purl.org/roh/mirror/foaf#Agent"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/roh/mirror/vcard#Address"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/roh#hasAccreditation"/>
